@@ -1,0 +1,6 @@
+name = Bootstrap Mobile Menu
+description = Provides function for rendering of a mobile menu bar.
+package = Menu
+
+core = "7.x"
+version = "7.x-1.0"

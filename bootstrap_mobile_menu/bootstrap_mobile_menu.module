@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Implemenets hook_theme().
+ * @return array
+ */
+function bootstrap_mobile_menu_theme() {
+  return array(
+    'bootstrap_menu_bar' => array(
+      'variables' => array(
+        'item_list' => NULL,
+      ),
+      'template' => 'bootstrap_menu_bar'
+    ),
+    'bootstrap_menu_item' => array(
+      'variables' => array(
+        'item' => NULL,
+      ),
+      'template' => 'bootstrap_menu_item'
+    )
+  );
+}
+
